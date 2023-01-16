@@ -39,3 +39,4 @@ Dorka
 __navigator.platform__. Wszelkie linie kodu, które się w jakikolwiek sposób do nich odnoszą, po aktualizaji nie będą dostępne. W związku z tym, trzeba będzie dostosować JavaScript tak, aby te dane były jednak dostępne nawet po zmianie;*
 ## Subtask 5
 
+Dołączyłam do grupy projektowej Jira. 
