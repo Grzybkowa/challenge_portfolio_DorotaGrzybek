@@ -35,8 +35,16 @@ Dorka
 *   *Po wejsciu w konsole, w zakładce PROBLEMS wyświetla się następujący komunikat:*
 >A page or script is accessing at least one of navigator.userAgent, navigator.appVersion, and navigator.platform. Starting in Chrome 101, the amount of information available in the User Agent string will be reduced.
 
-*z informacji które odnalazłam m.in. na* https://stackoverflow.com/questions/68924463/a-page-or-script-is-accessing-at-least-one-of-navigator-useragent-navigator-app *oraz*  https://github.com/adobe/react-spectrum/issues/2189, *wynika, iż w aplikacja używa starych zasobów tj: __navigator.userAgent__, __navigator.appVersion__,
-__navigator.platform__. Wszelkie linie kodu, które się w jakikolwiek sposób do nich odnoszą, po aktualizaji nie będą dostępne. W związku z tym, trzeba będzie dostosować JavaScript tak, aby te dane były jednak dostępne nawet po zmianie;*
+*z informacji które odnalazłam m.in. na* https://stackoverflow.com/questions/68924463/a-page-or-script-is-accessing-at-least-one-of-navigator-useragent-navigator-app *oraz*  https://github.com/adobe/react-spectrum/issues/2189, *wynika, iż aplikacja używa starych zasobów tj: __navigator.userAgent__, __navigator.appVersion__,
+__navigator.platform__. Wszelkie linie kodu, które w jakikolwiek sposób się do nich odnoszą, po aktualizaji nie będą dostępne. W związku z tym, trzeba będzie dostosować JavaScript tak, aby te dane były jednak dostępne nawet po zmianie;*
+
+
+*   *W zakładce AKTYWNOŚĆ button'y z linkami są różnie rozmieszczone - część z nich jest wyrównana do lewej, część otrzymała "dziwny" margin; myślę, że nie jest to zamierzony afekt, a błąd deklaracji w jednej z class ( dotyczący justify-content bądź min-width);*
+*   *__Raport Lighthouse__:*
+
+       * wskazuje na dosyć niską wydajność aplikacji (51%). W zaleceniach dotyczących poprawy wydajności pojawia się komunikat o skróceniu czasu wykonywania JavaScriptu. 
+       
+       * W Nawigacji aplikacji elementy nagłówków pojawiają się w nieprawidłowej kolejności.
 ## Subtask 5
 
-Dołączyłam do grupy projektowej Jira. 
+Dołączyłam do grupy projektowej DIT w Jira. 
