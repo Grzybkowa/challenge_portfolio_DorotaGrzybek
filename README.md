@@ -81,3 +81,17 @@ __navigator.platform__. Wszelkie linie kodu, które w jakikolwiek sposób się d
 ## Subtask 5
 
 Dołączyłam do grupy projektowej DIT w Jira. 
+
+
+
+# Task 2
+## Subtask 1
+Link to Test cases na podstawie dwóch User stories: 
+https://drive.google.com/drive/folders/1_nHHLhxKQumP3RZeJRMH758b2-PJmqIF?usp=sharing
+
+## Subtask 2
+## Subtask 3
+* Test cases piszemy, aby sprawdzić, czy wszystkie założone funkcjonalności danej aplikacja/website działają zgodnie z wytycznymi.
+* Napisane/udokumentowane test cases są źródłem informacji dla nowych testerów czy developerów
+* Test cases są pomocne przy automatyzacji testów ( ze względu na dokładnie opisane kroki, które powinny być zautomatyzowane - nie wiem jak ta informacja przekłada si na real lief, ale tak wyczytałam 😋 );
+* >"Pomagają upewnić się że zarówno programiści jak i QA w ten sam sposób rozumieją aplikację." (https://devenv.pl/przypadki-testowe-co-kazdy-programista-wiedziec-powinien/)
