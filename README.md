@@ -87,7 +87,7 @@ Dołączyłam do grupy projektowej DIT w Jira.
 # Task 2
 ## Subtask 1
 Link to Test cases na podstawie dwóch User stories: 
-https://drive.google.com/drive/folders/1_nHHLhxKQumP3RZeJRMH758b2-PJmqIF?usp=sharing
+https://docs.google.com/document/d/1fFdE1KnZJ-nLFe7W4zy4E3vifTVX8N_L-sNCw8gkdNI/edit?usp=sharing
 
 ## Subtask 2
 Link do 20 Test cases:
