@@ -90,6 +90,8 @@ Link to Test cases na podstawie dwóch User stories:
 https://drive.google.com/drive/folders/1_nHHLhxKQumP3RZeJRMH758b2-PJmqIF?usp=sharing
 
 ## Subtask 2
+Link do 20 Test cases:
+https://docs.google.com/document/d/1LPuad6gzJqM9sk_o7gxxvYgToucPhwmjRhL799KzFJI/edit?usp=sharing
 ## Subtask 3
 * Test cases piszemy, aby sprawdzić, czy wszystkie założone funkcjonalności danej aplikacja/website działają zgodnie z wytycznymi.
 * Napisane/udokumentowane test cases są źródłem informacji dla nowych testerów czy developerów
