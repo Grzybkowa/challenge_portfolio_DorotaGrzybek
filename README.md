@@ -97,3 +97,11 @@ https://docs.google.com/document/d/1LPuad6gzJqM9sk_o7gxxvYgToucPhwmjRhL799KzFJI/
 * Napisane/udokumentowane test cases są źródłem informacji dla nowych testerów czy developerów
 * Test cases są pomocne przy automatyzacji testów ( ze względu na dokładnie opisane kroki, które powinny być zautomatyzowane - nie wiem jak ta informacja przekłada si na real lief, ale tak wyczytałam 😋 );
 * >"Pomagają upewnić się że zarówno programiści jak i QA w ten sam sposób rozumieją aplikację." (https://devenv.pl/przypadki-testowe-co-kazdy-programista-wiedziec-powinien/)
+
+# Task 3
+
+## Subtask 1 & 2 
+Link do folderu: https://docs.google.com/document/d/1B0psIBquU18A0ol4HB5VeY_O3GgalsRNVEuLVj3O7ks/edit?usp=share_link
+
+## Subtask 3
+Link do folderu: https://docs.google.com/document/d/1DJWSfh2re7IoVfY1-XL1kJ-Epd4b5MKa99eOgO6pJ3s/edit?usp=share_link
