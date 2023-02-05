@@ -101,7 +101,28 @@ https://docs.google.com/document/d/1LPuad6gzJqM9sk_o7gxxvYgToucPhwmjRhL799KzFJI/
 # Task 3
 
 ## Subtask 1 & 2 
-Link do folderu: https://docs.google.com/document/d/1B0psIBquU18A0ol4HB5VeY_O3GgalsRNVEuLVj3O7ks/edit?usp=share_link
+BUDs report 📝 🪲 : https://docs.google.com/spreadsheets/d/1m143gmU9jazLNHWggzEmDCwIIbsGCG0KRLmXKdVSU30/edit?usp=share_link
 
 ## Subtask 3
-Link do folderu: https://docs.google.com/document/d/1DJWSfh2re7IoVfY1-XL1kJ-Epd4b5MKa99eOgO6pJ3s/edit?usp=share_link
+Summary rport: https://docs.google.com/document/d/1DJWSfh2re7IoVfY1-XL1kJ-Epd4b5MKa99eOgO6pJ3s/edit?usp=share_link
+
+# Task 4
+## Subtask 1 & 2
+## Subtask 3
+
+1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
+
+*Jest to aplikacja z różnego rodzaju ogłoszeniami. Użytkownik może tam np. sprzedać lubi kupić jakąś rzecz czy usługę, albo też oddać coś za darmo. W moje opinii ogólnym celem aplikacji OLX jest zrezszenie różnych ogłoszeń z całego kraju w tej jednej bazie, jaką jest OLX.*
+
+2. Kto ma być użytkownikiem końcowym aplikacji?
+
+*Moim zdaniem każdy kto korzysta z aplikacji jest użytkownikiem końcowym.*
+
+3. Czy według Ciebie aplikacja jest user friendly? 
+
+*Wg mnie aplikacjka OLX jest jak najbardziej user-friendly. Można pobrać ją za darmo. Prosty interfejs sparwai, że aplikacja jest łatwa w obsłudze .Od razu po wejściu widoczne są kategorie, które możemy wybrać i przefiltrować tak jak tego potrzebujemy (a więc spersonalizować).*
+
+4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? (Żeby nie było: nie jest to aplikacja przy której pracuję, takie pytania pojawiają się na rozmowach rekrutacyjnych dlatego dobrze jest to przećwiczyć :D )
+
+5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
+## Subtask 4 
