@@ -80,17 +80,18 @@ __navigator.platform__. Wszelkie linie kodu, które w jakikolwiek sposób się d
 
 ## Subtask 5
 
-Dołączyłam do grupy projektowej DIT w Jira. 
+Dołączyłam do grupy projektowej DIT w Jira 🎊 🤓 
 
+![testing meme](Dwight_meme.png)
 
 
 # Task 2
 ## Subtask 1
-Link to Test cases na podstawie dwóch User stories: 
+Test Cases na podstawie dwóch User stories: 
 https://docs.google.com/document/d/1fFdE1KnZJ-nLFe7W4zy4E3vifTVX8N_L-sNCw8gkdNI/edit?usp=sharing
 
 ## Subtask 2
-Link do 20 Test cases:
+20 Test cases:
 https://docs.google.com/document/d/1LPuad6gzJqM9sk_o7gxxvYgToucPhwmjRhL799KzFJI/edit?usp=sharing
 ## Subtask 3
 * Test cases piszemy, aby sprawdzić, czy wszystkie założone funkcjonalności danej aplikacja/website działają zgodnie z wytycznymi.
@@ -101,16 +102,17 @@ https://docs.google.com/document/d/1LPuad6gzJqM9sk_o7gxxvYgToucPhwmjRhL799KzFJI/
 # Task 3
 
 ## Subtask 1 & 2 
-BUDs report 📝 🪲 : https://docs.google.com/spreadsheets/d/1m143gmU9jazLNHWggzEmDCwIIbsGCG0KRLmXKdVSU30/edit?usp=share_link
+BUGs report 📝 🪲 : https://docs.google.com/spreadsheets/d/1m143gmU9jazLNHWggzEmDCwIIbsGCG0KRLmXKdVSU30/edit?usp=share_link
 
 ## Subtask 3
-Summary rport: https://docs.google.com/document/d/1DJWSfh2re7IoVfY1-XL1kJ-Epd4b5MKa99eOgO6pJ3s/edit?usp=share_link
+Summary report: https://docs.google.com/document/d/1DJWSfh2re7IoVfY1-XL1kJ-Epd4b5MKa99eOgO6pJ3s/edit?usp=share_link
 
 # Task 4
 ## Subtask 1 & 2
+![testing meme](testing_meme.png)
 OLX mobile app testing results 🎯 : https://drive.google.com/file/d/1Zs6L9POlxO2goNOSbx1F7-k_so5FCPtA/view?usp=share_link
 ## Subtask 3
-
+![meme](a_komu_to_potrzebne.png)
 1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
 
 *Jest to aplikacja z różnego rodzaju ogłoszeniami. Użytkownik może tam np. sprzedać lubi kupić jakąś rzecz czy usługę, albo też oddać coś za darmo. W moje opinii ogólnym celem aplikacji OLX jest zrezszenie różnych ogłoszeń z całego kraju w tej jednej bazie, jaką jest OLX.*
@@ -123,10 +125,19 @@ OLX mobile app testing results 🎯 : https://drive.google.com/file/d/1Zs6L9POlx
 
 *Wg mnie aplikacjka OLX jest jak najbardziej user-friendly. Można pobrać ją za darmo. Prosty interfejs sparwia, że aplikacja jest łatwa w obsłudze .Od razu po wejściu widoczne są kategorie, które możemy wybrać i przefiltrować tak jak tego potrzebujemy (a więc spersonalizować). Aplikacja została stworzona na białym tle, a relacje pomiędzy kolorami oraz kontrastami poszczególnych elementów przyciągają uwagę użytkownika.*
 
-4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? (Żeby nie było: nie jest to aplikacja przy której pracuję, takie pytania pojawiają się na rozmowach rekrutacyjnych dlatego dobrze jest to przećwiczyć :D )
+4. Jak byś usprawnił aplikację? Co byś w niej poprawił? Czy masz jakiś pomysł na dodatkową funkcjonalność? 
+
+*Przeglądając aplikację, natrafiłam na ogłoszenie o prace, które powtarza się chyba we wszystkich województwach i ewidentnie jest oszustwem. W związku z tym wprowadziłabym jakiś komunikat pod tego typu ogłoszeniami, "ostrzegający" o możliwości oszustwa.*
 
 5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
 
-**
+*Aplikację mobilną moge testować w trybie offline, czego nie mogę zrobić przy testowaniu aplikacji internetowej.* 
+
+*Przetestowanie aplikacji mobilnej wymagało zainstalowanie jej na telefonie, co nie było potrzebne w przypadku aplikacji internetowej.*
+
+*W aplikacji mobilnej odnalazłam więcej funkcjonalności, niż w aplikacji internetowej.*
+
+*Testując aplikację internetową na komputerze korzystałam z DevTool'sów, czego nie mogłam zrobić testując aplikację natywną na telefonie (wiem, że "jakoś" to się da, ale jest to dużo bardziej uciążliwe).*
+
 ## Subtask 4 
-SwipeTo sprint: https://wannai.atlassian.net/jira/software/projects/DIT/boards/2
+SwipeTo sprint 🏃‍♀️⌚︎: https://wannai.atlassian.net/jira/software/projects/DIT/boards/2
