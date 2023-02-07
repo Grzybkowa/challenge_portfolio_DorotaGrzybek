@@ -1,4 +1,4 @@
-# Task 1
+# ```Task 1```
 ## Subtask 1
 
 8 / 10 punktów (źle odpowiedziałam na pytanie o testy eksploratacyjne oraz typy testów 🫤 ). 
@@ -85,7 +85,7 @@ Dołączyłam do grupy projektowej DIT w Jira 🎊 🤓
 ![testing meme](Dwight_meme.png)
 
 
-# Task 2
+# ```Task 2```
 ## Subtask 1
 Test Cases na podstawie dwóch User stories: 
 https://docs.google.com/document/d/1fFdE1KnZJ-nLFe7W4zy4E3vifTVX8N_L-sNCw8gkdNI/edit?usp=sharing
@@ -99,7 +99,7 @@ https://docs.google.com/document/d/1LPuad6gzJqM9sk_o7gxxvYgToucPhwmjRhL799KzFJI/
 * Test cases są pomocne przy automatyzacji testów ( ze względu na dokładnie opisane kroki, które powinny być zautomatyzowane - nie wiem jak ta informacja przekłada si na real lief, ale tak wyczytałam 😋 );
 * >"Pomagają upewnić się że zarówno programiści jak i QA w ten sam sposób rozumieją aplikację." (https://devenv.pl/przypadki-testowe-co-kazdy-programista-wiedziec-powinien/)
 
-# Task 3
+# ```Task 3```
 
 ## Subtask 1 & 2 
 BUGs report 📝 🪲 : https://docs.google.com/spreadsheets/d/1m143gmU9jazLNHWggzEmDCwIIbsGCG0KRLmXKdVSU30/edit?usp=share_link
@@ -107,7 +107,7 @@ BUGs report 📝 🪲 : https://docs.google.com/spreadsheets/d/1m143gmU9jazLNHWg
 ## Subtask 3
 Summary report: https://docs.google.com/document/d/1DJWSfh2re7IoVfY1-XL1kJ-Epd4b5MKa99eOgO6pJ3s/edit?usp=share_link
 
-# Task 4
+# ```Task 4```
 ## Subtask 1 & 2
 ![testing meme](testing_meme.png)
 OLX mobile app testing results 🎯 : https://drive.google.com/file/d/1Zs6L9POlxO2goNOSbx1F7-k_so5FCPtA/view?usp=share_link
@@ -131,13 +131,21 @@ OLX mobile app testing results 🎯 : https://drive.google.com/file/d/1Zs6L9POlx
 
 5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
 
+---
 *Aplikację mobilną moge testować w trybie offline, czego nie mogę zrobić przy testowaniu aplikacji internetowej.* 
+
+---
 
 *Przetestowanie aplikacji mobilnej wymagało zainstalowanie jej na telefonie, co nie było potrzebne w przypadku aplikacji internetowej.*
 
+---
+
 *W aplikacji mobilnej odnalazłam więcej funkcjonalności, niż w aplikacji internetowej.*
+
+---
 
 *Testując aplikację internetową na komputerze korzystałam z DevTool'sów, czego nie mogłam zrobić testując aplikację natywną na telefonie (wiem, że "jakoś" to się da, ale jest to dużo bardziej uciążliwe).*
 
+---
 ## Subtask 4 
 SwipeTo sprint 🏃‍♀️⌚︎: https://wannai.atlassian.net/jira/software/projects/DIT/boards/2
