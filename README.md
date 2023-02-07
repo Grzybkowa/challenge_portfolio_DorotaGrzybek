@@ -108,6 +108,7 @@ Summary rport: https://docs.google.com/document/d/1DJWSfh2re7IoVfY1-XL1kJ-Epd4b5
 
 # Task 4
 ## Subtask 1 & 2
+OLX mobile app testing results 🎯 : https://drive.google.com/file/d/1Zs6L9POlxO2goNOSbx1F7-k_so5FCPtA/view?usp=share_link
 ## Subtask 3
 
 1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
@@ -120,9 +121,12 @@ Summary rport: https://docs.google.com/document/d/1DJWSfh2re7IoVfY1-XL1kJ-Epd4b5
 
 3. Czy według Ciebie aplikacja jest user friendly? 
 
-*Wg mnie aplikacjka OLX jest jak najbardziej user-friendly. Można pobrać ją za darmo. Prosty interfejs sparwai, że aplikacja jest łatwa w obsłudze .Od razu po wejściu widoczne są kategorie, które możemy wybrać i przefiltrować tak jak tego potrzebujemy (a więc spersonalizować).*
+*Wg mnie aplikacjka OLX jest jak najbardziej user-friendly. Można pobrać ją za darmo. Prosty interfejs sparwia, że aplikacja jest łatwa w obsłudze .Od razu po wejściu widoczne są kategorie, które możemy wybrać i przefiltrować tak jak tego potrzebujemy (a więc spersonalizować). Aplikacja została stworzona na białym tle, a relacje pomiędzy kolorami oraz kontrastami poszczególnych elementów przyciągają uwagę użytkownika.*
 
 4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? (Żeby nie było: nie jest to aplikacja przy której pracuję, takie pytania pojawiają się na rozmowach rekrutacyjnych dlatego dobrze jest to przećwiczyć :D )
 
 5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
+
+**
 ## Subtask 4 
+SwipeTo sprint: https://wannai.atlassian.net/jira/software/projects/DIT/boards/2
