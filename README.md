@@ -103,9 +103,8 @@ https://docs.google.com/document/d/1LPuad6gzJqM9sk_o7gxxvYgToucPhwmjRhL799KzFJI/
 
 ## <span style="color:darkorange">Subtask 1 & 2</span>
 BUGs report 📝 🪲 : https://docs.google.com/spreadsheets/d/1m143gmU9jazLNHWggzEmDCwIIbsGCG0KRLmXKdVSU30/edit?usp=share_link
-
 ## <span style="color:darkorange">Subtask 3</span>
-Summary report: https://docs.google.com/document/d/1DJWSfh2re7IoVfY1-XL1kJ-Epd4b5MKa99eOgO6pJ3s/edit?usp=share_link
+Summary report: https://docs.google.com/presentation/d/1syjeCU_iqVbI4hpvIeoIPU0Gq3rqtUxf2YAzDyfvox4/edit?usp=share_link 
 
 # <span style="color:yellow">Task 4</span>
 ## <span style="color:darkorange">Subtask 1 & 2</span>
@@ -121,7 +120,7 @@ OLX mobile app testing results 🎯 : https://drive.google.com/file/d/1Zs6L9POlx
 
 <span style="color:limegreen">2. Kto ma być użytkownikiem końcowym aplikacji?</span>
 
-*Moim zdaniem każdy kto korzysta z aplikacji jest użytkownikiem końcowym.*
+*Użytkownikiem końcowym aplikacji jest każdy kto z niej korzysta.*
 
 <span style="color:limegreen">3. Czy według Ciebie aplikacja jest user friendly?</span>
 
@@ -129,7 +128,7 @@ OLX mobile app testing results 🎯 : https://drive.google.com/file/d/1Zs6L9POlx
 
 <span style="color:limegreen">4. Jak byś usprawnił aplikację? Co byś w niej poprawił? Czy masz jakiś pomysł na dodatkową funkcjonalność?</span> 
 
-*Przeglądając aplikację, natrafiłam na ogłoszenie o prace, które powtarza się chyba we wszystkich województwach i ewidentnie jest oszustwem. W związku z tym wprowadziłabym jakiś komunikat pod tego typu ogłoszeniami, "ostrzegający" o możliwości oszustwa.*
+*Przeglądając aplikację, natrafiłam na ogłoszenie o pracę, które powtarza się chyba we wszystkich województwach i ewidentnie jest oszustwem. W związku z tym wprowadziłabym jakiś komunikat pod tego typu ogłoszeniami, "ostrzegający" o możliwym oszustwie.*
 
 <span style="color:limegreen">5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?</span>
 
@@ -149,5 +148,7 @@ OLX mobile app testing results 🎯 : https://drive.google.com/file/d/1Zs6L9POlx
 *Testując aplikację internetową na komputerze korzystałam z DevTool'sów, czego nie mogłam zrobić testując aplikację natywną na telefonie (wiem, że "jakoś" to się da, ale jest to dużo bardziej uciążliwe).*
 
 ---
+
+*Przy testowaniu aplikacji mobilnej jest brak myszki. Jest to w mojej opinii trudniejsze i trzeba zwracać dużą uwagę na wielkość buttonów oraz ich rozmieszczenie.*
 ## <span style="color:darkorange">Subtask 4</span>
 SwipeTo sprint 🏃‍♀️⌚︎: https://wannai.atlassian.net/jira/software/projects/DIT/boards/2
