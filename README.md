@@ -174,17 +174,24 @@ Instalacja Xampp przebiegła pomyślnie :) .
 SELECT * FROM 'actors';
 
 ![mySQL_1_actors list](actors_list.png)
+
+---
+
 *2. Wyświetl film, który powstał w 2019 roku.*
 
 SELECT * FROM 'movies' WHERE year_of_production = '2019';
 
 ![mySQL_2_title of the movie form 2019](movie_from_2019.png)
 
+---
+
 *3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.*
 
 SELECT * FROM 'movies' WHERE year_of_production BETWEEN '1900' AND '1999';
 
 ![mySQL_3_movies titles between 1900 and 1999](movies_1900_1999.png)
+
+---
 
 *4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.*
 
@@ -196,6 +203,7 @@ WHERE price < 7;
 
 ![mySQL_4_title and price of the movies cheaper than 7$](price_less_than_7.png)
 
+---
 
 *5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.*
 
@@ -205,6 +213,7 @@ WHERE actor_id < 3 AND actor_id > 8;
 
 ![mySQL_5_actors from the list under id from 4 to 7 - LESS/MORE AND](actor_ID_from_4_to_7.png)
 
+---
 
 *6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.*
 
@@ -214,11 +223,15 @@ WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;
 
 ![mySQL_6_name's of the customers under id 2,4 and 6 - OR](customer_id_2_4_6.png)
 
+---
+
 *7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN*
 
 SELECT * FROM 'customers' WHERE customer_id IN (1,3,5);
 
 ![mySQL_7_name's of the customers under id 1,3 and 5 - IN](customer_id_1_3_5.png)
+
+---
 
 *8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.*
 
@@ -226,12 +239,15 @@ SELECT * FROM 'actors' WHERE name LIKE 'An%';
 
 ![mySQL_8_actors, which names start with 'An' - LIKE](actors_name_starts_with_An.png)
 
+---
 
 *9. Wyświetl dane klienta, który nie ma podanego adresu email.*
 
 SELECT * FROM 'customers' WHERE email IS NULL; 
 
 ![mySQL_9_data of the customer, which has no email address](customer_name_without_email.png)
+
+---
 
 *10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.*
 
