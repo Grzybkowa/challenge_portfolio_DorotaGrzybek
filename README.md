@@ -1,4 +1,6 @@
-# <span style="color:yellow">Task 1</span>
+# <span style="color:yellow">🚀 Task 1 🚀</span>
+
+![meme](new_adventure.png)
 ## <span style="color:darkorange">Subtask 1</span>
 
 8 / 10 punktów (źle odpowiedziałam na pytanie o testy eksploratacyjne oraz typy testów 🫤 ). 
@@ -8,7 +10,10 @@
 Cześć 🙂 Mam na imię Dorota. Biorę udział w projekcie, ponieważ jestem przekonana, że trzeba wykorzystywać każdą szansę na rozwój nowych umiejętności. Mam także nadzieję, że w niedalekiej przyszłości będę mogła użyć wiedzy wyniesionej z challengu, przy prawdziwym, "żywym" projekcie. 
 
 Póki co pierwsza lekcja za mną - nauczyłam się czym jest i jak używać Markdown 🤟 oraz udało mi się naprawić wyświetlanie litery "ż" w VScode ( my nemesis 😵‍💫 😃). W prawdzie nie są to niebywałe osiągnięcia 😜, ale jak to mówi stare, chińskie przysłowie ( i w tym wypadku to **```NAPRAWDĘ JEST STARE, CHIŃSKIE PRZYSŁOWIE!```** 😅):
->*"A journey of a thousand miles begins with a single step"* 🫶
+>*"A journey of a thousand miles begins with a single step"* 🫶  
+
+##### *(autora nie znam, ale najpradopodobniej jest nim chiński Paulo Coelho :D )*
+
 
 Dorka
 
@@ -46,7 +51,7 @@ STRONA GŁÓWNA:
 
 **<span style="color:limegreen">4. Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).**</span>
 
-*Mimo nieprzyjaznego interfejsu aplikacja wydaje mi się całkiem intuicyjna. Nie wiem jednak, czy jest to kwestia tego,że przeklikałam ją z 500 razy* 🤯 *i już wiem, gdzie czego szukać, czy może jednak faktycznie nie najtrudniej wię w niej odnależć. Spełnia swoją funkcję, jaką jest stworzenie profilu Gracza oraz Raportu z jego poczynań w danym meczu. Oprócz podstawowych danych Gracza, można również dokonać opisowej oceny zawodnika(podczas tworzenia Raportu).* 
+*Mimo nieprzyjaznego interfejsu aplikacja wydaje mi się całkiem intuicyjna. Nie wiem jednak, czy jest to kwestia tego,że przeklikałam ją z 500 razy* 🤯 *i już wiem, gdzie czego szukać, czy może jednak faktycznie nie najtrudniej się w niej odnaleźć. Spełnia swoją funkcję, jaką jest stworzenie profilu Gracza oraz Raportu z jego poczynań w danym meczu. Oprócz podstawowych danych Gracza, można również dokonać opisowej oceny zawodnika(podczas tworzenia Raportu).* 
 
 **<span style="color:limegreen">5. Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)**</span>
 
@@ -85,7 +90,7 @@ Dołączyłam do grupy projektowej DIT w Jira 🎊 🤓
 ![testing meme](Dwight_meme.png)
 
 
-# <span style="color:yellow">Task 2</span>
+# <span style="color:yellow">🚀 Task 2 🚀</span>
 ## <span style="color:darkorange">Subtask 1</span>
 Test Cases na podstawie dwóch User stories: 
 https://docs.google.com/document/d/1fFdE1KnZJ-nLFe7W4zy4E3vifTVX8N_L-sNCw8gkdNI/edit?usp=sharing
@@ -99,14 +104,14 @@ https://docs.google.com/document/d/1LPuad6gzJqM9sk_o7gxxvYgToucPhwmjRhL799KzFJI/
 * Test cases są pomocne przy automatyzacji testów ( ze względu na dokładnie opisane kroki, które powinny być zautomatyzowane - nie wiem jak ta informacja przekłada si na real lief, ale tak wyczytałam 😋 );
 * >"Pomagają upewnić się że zarówno programiści jak i QA w ten sam sposób rozumieją aplikację." (https://devenv.pl/przypadki-testowe-co-kazdy-programista-wiedziec-powinien/)
 
-# <span style="color:yellow">Task 3</span>
+# <span style="color:yellow">🚀 Task 3 🚀</span>
 
 ## <span style="color:darkorange">Subtask 1 & 2</span>
 BUGs report 📝 🪲 : https://docs.google.com/spreadsheets/d/1m143gmU9jazLNHWggzEmDCwIIbsGCG0KRLmXKdVSU30/edit?usp=share_link
 ## <span style="color:darkorange">Subtask 3</span>
 Summary report: https://docs.google.com/presentation/d/1syjeCU_iqVbI4hpvIeoIPU0Gq3rqtUxf2YAzDyfvox4/edit?usp=share_link 
 
-# <span style="color:yellow">Task 4</span>
+# <span style="color:yellow">🚀 Task 4 🚀</span>
 ## <span style="color:darkorange">Subtask 1 & 2</span>
 ![testing meme](testing_meme.png)
 OLX mobile app testing results 🎯 : https://drive.google.com/file/d/1Zs6L9POlxO2goNOSbx1F7-k_so5FCPtA/view?usp=share_link
@@ -152,3 +157,86 @@ OLX mobile app testing results 🎯 : https://drive.google.com/file/d/1Zs6L9POlx
 *Przy testowaniu aplikacji mobilnej jest brak myszki. Jest to w mojej opinii trudniejsze i trzeba zwracać dużą uwagę na wielkość buttonów oraz ich rozmieszczenie.*
 ## <span style="color:darkorange">Subtask 4</span>
 SwipeTo sprint 🏃‍♀️⌚︎: https://wannai.atlassian.net/jira/software/projects/DIT/boards/2
+
+# <span style="color:yellow">🚀 Task 5 🚀</span>
+
+## <span style="color:darkorange">Subtask 1</span>
+![SQL meme](yoda_learn_sql_we_must.png)
+
+## <span style="color:darkorange">Subtask 2</span>
+
+Instalacja Xampp przebiegła pomyślnie :) . 
+![SQL meme](SQL_meme.png)
+## <span style="color:darkorange">Subtask 3</span>
+
+*1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.*
+
+SELECT * FROM 'actors';
+
+![mySQL_1_actors list](actors_list.png)
+*2. Wyświetl film, który powstał w 2019 roku.*
+
+SELECT * FROM 'movies' WHERE year_of_production = '2019';
+
+![mySQL_2_title of the movie form 2019](movie_from_2019.png)
+
+*3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.*
+
+SELECT * FROM 'movies' WHERE year_of_production BETWEEN '1900' AND '1999';
+
+![mySQL_3_movies titles between 1900 and 1999](movies_1900_1999.png)
+
+*4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.*
+
+SELECT title, price
+
+FROM 'movies'
+
+WHERE price < 7;
+
+![mySQL_4_title and price of the movies cheaper than 7$](price_less_than_7.png)
+
+
+*5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.*
+
+SELECT * FROM 'actors'
+
+WHERE actor_id < 3 AND actor_id > 8;
+
+![mySQL_5_actors from the list under id from 4 to 7 - LESS/MORE AND](actor_ID_from_4_to_7.png)
+
+
+*6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.*
+
+SELECT * FROM 'customers' 
+
+WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;
+
+![mySQL_6_name's of the customers under id 2,4 and 6 - OR](customer_id_2_4_6.png)
+
+*7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN*
+
+SELECT * FROM 'customers' WHERE customer_id IN (1,3,5);
+
+![mySQL_7_name's of the customers under id 1,3 and 5 - IN](customer_id_1_3_5.png)
+
+*8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.*
+
+SELECT * FROM 'actors' WHERE name LIKE 'An%'; 
+
+![mySQL_8_actors, which names start with 'An' - LIKE](actors_name_starts_with_An.png)
+
+
+*9. Wyświetl dane klienta, który nie ma podanego adresu email.*
+
+SELECT * FROM 'customers' WHERE email IS NULL; 
+
+![mySQL_9_data of the customer, which has no email address](customer_name_without_email.png)
+
+*10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.*
+
+SELECT * FROM 'movies' WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
+
+![mySQL_10_](movie_price_more_than_9_and_id_between_2_and_8.png)
+
+
