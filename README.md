@@ -114,7 +114,9 @@ Summary report: https://docs.google.com/presentation/d/1wthED30U8zQVpcyV_fCAL4ht
 # <span style="color:yellow">🚀 Task 4 🚀</span>
 ## <span style="color:darkorange">Subtask 1 & 2</span>
 ![testing meme](testing_meme.png)
-OLX mobile app testing results 🎯 : https://drive.google.com/file/d/1Zs6L9POlxO2goNOSbx1F7-k_so5FCPtA/view?usp=share_link
+OLX mobile app testing results 🎯 : 
+https://docs.google.com/spreadsheets/d/195b36YxEdsoTa8BOzjNPJuLqZ7-TOKlbPq5Bf1RSGoQ/edit?usp=sharing
+
 ## <span style="color:darkorange">Subtask 3</span>
 ![meme](a_komu_to_potrzebne.png)
 
