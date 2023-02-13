@@ -109,7 +109,7 @@ https://docs.google.com/document/d/1LPuad6gzJqM9sk_o7gxxvYgToucPhwmjRhL799KzFJI/
 ## <span style="color:darkorange">Subtask 1 & 2</span>
 BUGs report 📝 🪲 : https://docs.google.com/spreadsheets/d/1m143gmU9jazLNHWggzEmDCwIIbsGCG0KRLmXKdVSU30/edit?usp=share_link
 ## <span style="color:darkorange">Subtask 3</span>
-Summary report: https://docs.google.com/presentation/d/1syjeCU_iqVbI4hpvIeoIPU0Gq3rqtUxf2YAzDyfvox4/edit?usp=share_link 
+Summary report: https://docs.google.com/presentation/d/1wthED30U8zQVpcyV_fCAL4htgj6KMw0CmGPL-mzBO70/edit?usp=sharing
 
 # <span style="color:yellow">🚀 Task 4 🚀</span>
 ## <span style="color:darkorange">Subtask 1 & 2</span>
