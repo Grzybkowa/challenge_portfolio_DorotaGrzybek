@@ -161,7 +161,8 @@ SwipeTo sprint 🏃‍♀️⌚︎: https://wannai.atlassian.net/jira/software/p
 # <span style="color:yellow">🚀 Task 5 🚀</span>
 
 ## <span style="color:darkorange">Subtask 1</span>
-![SQL meme](yoda_learn_sql_we_must.png)
+
+![SQL meme](yoda_learn_SQL_we_must.png)
 
 Podtsawowe polecenia SQL:
 - SELECT * FROM
