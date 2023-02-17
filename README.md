@@ -265,4 +265,67 @@ SELECT * FROM 'movies' WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 
 ![mySQL_10_](movie_price_more_than_9_and_id_between_2_and_8.png)
 
+# <span style="color:yellow">🚀 Task 6 🚀</span>
+
+## <span style="color:darkorange">Subtask 1</span>
+
+*11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈*
+
+UPDATE customers SET name= 'Ania' WHERE surname = 'Miler';
+
+![mySQL_11_](11.png)
+
+*12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.*
+
+SELECT customers.customer_id, customers.name, customers.surname, customers.email FROM customers INNER JOIN sale ON customers.customer_id = sale.customer_id WHERE sale.movie_id = 4;
+
+![mySQL_12_](12.png)
+
+*13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com.*
+
+UPDATE customers SET email='pati@mail.com' WHERE customer_id = 4;
+
+![mySQL_13_](13.png)
+
+*14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).*
+
+SELECT customers.name, customers.surname, movies.title FROM 99 customers INNER JOIN sale ON customers.customer_id = sale.customer_id) INNER JOIN movies ON sale.movie_id = movies.movie_id);
+
+![mySQL_14_](14.png)
+
+*15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag.*
+
+![i_don't_know_meme](I_DON'T_KNOW.png)
+
+*16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.*
+
+![so_close_yet_so_far_meme](so_close_so_far.png)
+
+*17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION).*
+
+SELECT name FROM customers UNION SELECT name FROM actors ORDER BY name ASC;
+
+![mySQL_17_](17.png)
+
+*18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).*
+
+UPDATE movies SET price=price+2.5 WHERE year_of_production > 2000;
+
+![mySQL_18_](18.png)
+
+*19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.*
+
+![meme](DON'T_KNOW.png)
+
+*20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.*
+
+INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES ( 7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hona');
+
+![mySQL_20_](20.png)
+
+## <span style="color:darkorange">Subtask 2</span>
+
+W QUIZ'zie zdobyłam 13 / 15 pkt. 
+
+![_ISTQB_quiz_result_screenshot_13/15](quiz.png)
 
