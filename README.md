@@ -183,7 +183,7 @@ Instalacja Xampp przebiegła pomyślnie :) .
 
 SELECT * FROM 'actors';
 
-![mySQL_1_actors list](actors_list.png)
+![mySQL_1_actors list](1.png)
 
 ---
 
@@ -191,7 +191,7 @@ SELECT * FROM 'actors';
 
 SELECT * FROM 'movies' WHERE year_of_production = '2019';
 
-![mySQL_2_title of the movie form 2019](movie_from_2019.png)
+![mySQL_2_title of the movie form 2019](2.png)
 
 ---
 
@@ -199,39 +199,31 @@ SELECT * FROM 'movies' WHERE year_of_production = '2019';
 
 SELECT * FROM 'movies' WHERE year_of_production BETWEEN '1900' AND '1999';
 
-![mySQL_3_movies titles between 1900 and 1999](movies_1900_1999.png)
+![mySQL_3_movies titles between 1900 and 1999](3.png)
 
 ---
 
 *4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.*
 
-SELECT title, price
+SELECT title, price FROM 'movies' WHERE price < 7;
 
-FROM 'movies'
-
-WHERE price < 7;
-
-![mySQL_4_title and price of the movies cheaper than 7$](price_less_than_7.png)
+![mySQL_4_title and price of the movies cheaper than 7$](4.png)
 
 ---
 
 *5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.*
 
-SELECT * FROM 'actors'
+SELECT * FROM 'actors' WHERE actor_id < 3 AND actor_id > 8;
 
-WHERE actor_id < 3 AND actor_id > 8;
-
-![mySQL_5_actors from the list under id from 4 to 7 - LESS/MORE AND](actor_ID_from_4_to_7.png)
+![mySQL_5_actors from the list under id from 4 to 7 - LESS/MORE AND](5.png)
 
 ---
 
 *6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.*
 
-SELECT * FROM 'customers' 
+SELECT * FROM 'customers' WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;
 
-WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;
-
-![mySQL_6_name's of the customers under id 2,4 and 6 - OR](customer_id_2_4_6.png)
+![mySQL_6_name's of the customers under id 2,4 and 6 - OR](6.png)
 
 ---
 
@@ -239,7 +231,7 @@ WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;
 
 SELECT * FROM 'customers' WHERE customer_id IN (1,3,5);
 
-![mySQL_7_name's of the customers under id 1,3 and 5 - IN](customer_id_1_3_5.png)
+![mySQL_7_name's of the customers under id 1,3 and 5 - IN](7.png)
 
 ---
 
@@ -247,7 +239,7 @@ SELECT * FROM 'customers' WHERE customer_id IN (1,3,5);
 
 SELECT * FROM 'actors' WHERE name LIKE 'An%'; 
 
-![mySQL_8_actors, which names start with 'An' - LIKE](actors_name_starts_with_An.png)
+![mySQL_8_actors, which names start with 'An' - LIKE](8.png)
 
 ---
 
@@ -255,7 +247,7 @@ SELECT * FROM 'actors' WHERE name LIKE 'An%';
 
 SELECT * FROM 'customers' WHERE email IS NULL; 
 
-![mySQL_9_data of the customer, which has no email address](customer_name_without_email.png)
+![mySQL_9_data of the customer, which has no email address](.png)
 
 ---
 
@@ -263,15 +255,17 @@ SELECT * FROM 'customers' WHERE email IS NULL;
 
 SELECT * FROM 'movies' WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 
-![mySQL_10_](movie_price_more_than_9_and_id_between_2_and_8.png)
+![mySQL_10_](10.png)
 
 # <span style="color:yellow">🚀 Task 6 🚀</span>
 
 ## <span style="color:darkorange">Subtask 1</span>
 
+C.d. TASK 5:Subtask 3 ;) 
+
 *11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈*
 
-UPDATE customers SET name= 'Ania' WHERE surname = 'Miler';
+UPDATE customers SET surname='Miler' WHERE customer_id=3;
 
 ![mySQL_11_](11.png)
 
@@ -289,17 +283,21 @@ UPDATE customers SET email='pati@mail.com' WHERE customer_id = 4;
 
 *14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).*
 
-SELECT customers.name, customers.surname, movies.title FROM 99 customers INNER JOIN sale ON customers.customer_id = sale.customer_id) INNER JOIN movies ON sale.movie_id = movies.movie_id);
+SELECT customers.name, customers.surname, movies.title FROM ((customers INNER JOIN sale ON customers.customer_id = sale.customer_id) INNER JOIN movies ON sale.movie_id = movies.movie_id);
 
 ![mySQL_14_](14.png)
 
 *15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag.*
 
-![i_don't_know_meme](I_DON'T_KNOW.png)
+ALTER TABLE customers ADD COLUMN pseudonym VARCHAR(3) DEFAULT CONCAT (LEFT(name, 2), RIGHT(surname, 1));
+
+![mySQL_15_](15.png)
 
 *16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.*
 
-![so_close_yet_so_far_meme](so_close_so_far.png)
+SELECT DISTINCT sale.movie_id, movies.title FROM sale JOIN movies ON sale.movie_id=movies.movie.id;
+
+![mySQL_16_](16.png)
 
 *17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION).*
 
@@ -315,11 +313,13 @@ UPDATE movies SET price=price+2.5 WHERE year_of_production > 2000;
 
 *19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.*
 
-![meme](DON'T_KNOW.png)
+SELECT actors.name , actors.surname , movies.title FROM actors JOIN cast ON actors.actor_id=cast.actor_id JOIN movies ON cast.movie_id=movies.movie_id;
+
+![mySQL_19_](19.png)
 
 *20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.*
 
-INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES ( 7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hona');
+INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES ( 7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com');
 
 ![mySQL_20_](20.png)
 
@@ -328,4 +328,9 @@ INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES ( 7,
 W QUIZ'zie zdobyłam 13 / 15 pkt. 
 
 ![_ISTQB_quiz_result_screenshot_13/15](quiz.png)
+
+## <span style="color:darkorange">Subtask 3</span>
+
+[Link do portfolio](https://github.com/Grzybkowa/Testing_Portfolio) 😉
+
 
