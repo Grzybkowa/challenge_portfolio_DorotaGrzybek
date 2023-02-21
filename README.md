@@ -1,6 +1,6 @@
 # <span style="color:yellow">🚀 Task 1 🚀</span>
 
-![meme](new_adventure.png)
+![meme](./mems/new_adventure.png)
 ## <span style="color:darkorange">Subtask 1</span>
 
 8 / 10 punktów (źle odpowiedziałam na pytanie o testy eksploratacyjne oraz typy testów 🫤 ). 
@@ -87,7 +87,7 @@ __navigator.platform__. Wszelkie linie kodu, które w jakikolwiek sposób się d
 
 Dołączyłam do grupy projektowej DIT w Jira 🎊 🤓 
 
-![testing meme](Dwight_meme.png)
+![testing meme](./mems/Dwight_meme.png)
 
 
 # <span style="color:yellow">🚀 Task 2 🚀</span>
