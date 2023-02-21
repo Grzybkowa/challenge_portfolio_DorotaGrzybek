@@ -113,12 +113,12 @@ Summary report: https://docs.google.com/presentation/d/1wthED30U8zQVpcyV_fCAL4ht
 
 # <span style="color:yellow">🚀 Task 4 🚀</span>
 ## <span style="color:darkorange">Subtask 1 & 2</span>
-![testing meme](testing_meme.png)
+![testing meme](./mems/testing_meme.png)
 OLX mobile app testing results 🎯 : 
 https://docs.google.com/spreadsheets/d/195b36YxEdsoTa8BOzjNPJuLqZ7-TOKlbPq5Bf1RSGoQ/edit?usp=sharing
 
 ## <span style="color:darkorange">Subtask 3</span>
-![meme](a_komu_to_potrzebne.png)
+![meme](./mems/a_komu_to_potrzebne.png)
 
 <span style="color:limegreen">1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?</span>.
 
@@ -164,7 +164,7 @@ SwipeTo sprint 🏃‍♀️⌚︎: https://wannai.atlassian.net/jira/software/p
 
 ## <span style="color:darkorange">Subtask 1</span>
 
-![SQL meme](yoda_learn_SQL_we_must.png)
+![SQL meme](./mems/yoda_learn_SQL_we_must.png)
 
 Podtsawowe polecenia SQL:
 - SELECT * FROM
@@ -176,14 +176,14 @@ Podtsawowe polecenia SQL:
 ## <span style="color:darkorange">Subtask 2</span>
 
 Instalacja Xampp przebiegła pomyślnie :) . 
-![SQL meme](SQL_meme.png)
+![SQL meme](./mems/SQL_meme.png)
 ## <span style="color:darkorange">Subtask 3</span>
 
 *1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.*
 
 SELECT * FROM 'actors';
 
-![mySQL_1_actors list](1.png)
+![mySQL_1_actors list](./screenshots/1.png)
 
 ---
 
@@ -191,7 +191,7 @@ SELECT * FROM 'actors';
 
 SELECT * FROM 'movies' WHERE year_of_production = '2019';
 
-![mySQL_2_title of the movie form 2019](2.png)
+![mySQL_2_title of the movie form 2019](./screenshots/2.png)
 
 ---
 
@@ -199,7 +199,7 @@ SELECT * FROM 'movies' WHERE year_of_production = '2019';
 
 SELECT * FROM 'movies' WHERE year_of_production BETWEEN '1900' AND '1999';
 
-![mySQL_3_movies titles between 1900 and 1999](3.png)
+![mySQL_3_movies titles between 1900 and 1999](./screenshots/3.png)
 
 ---
 
@@ -207,7 +207,7 @@ SELECT * FROM 'movies' WHERE year_of_production BETWEEN '1900' AND '1999';
 
 SELECT title, price FROM 'movies' WHERE price < 7;
 
-![mySQL_4_title and price of the movies cheaper than 7$](4.png)
+![mySQL_4_title and price of the movies cheaper than 7$](./screenshots/4.png)
 
 ---
 
@@ -215,7 +215,7 @@ SELECT title, price FROM 'movies' WHERE price < 7;
 
 SELECT * FROM 'actors' WHERE actor_id < 3 AND actor_id > 8;
 
-![mySQL_5_actors from the list under id from 4 to 7 - LESS/MORE AND](5.png)
+![mySQL_5_actors from the list under id from 4 to 7 - LESS/MORE AND](./screenshots/5.png)
 
 ---
 
@@ -223,7 +223,7 @@ SELECT * FROM 'actors' WHERE actor_id < 3 AND actor_id > 8;
 
 SELECT * FROM 'customers' WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;
 
-![mySQL_6_name's of the customers under id 2,4 and 6 - OR](6.png)
+![mySQL_6_name's of the customers under id 2,4 and 6 - OR](./screenshots/6.png)
 
 ---
 
@@ -231,7 +231,7 @@ SELECT * FROM 'customers' WHERE customer_id = 2 OR customer_id = 4 OR customer_i
 
 SELECT * FROM 'customers' WHERE customer_id IN (1,3,5);
 
-![mySQL_7_name's of the customers under id 1,3 and 5 - IN](7.png)
+![mySQL_7_name's of the customers under id 1,3 and 5 - IN](./screenshots/7.png)
 
 ---
 
@@ -239,7 +239,7 @@ SELECT * FROM 'customers' WHERE customer_id IN (1,3,5);
 
 SELECT * FROM 'actors' WHERE name LIKE 'An%'; 
 
-![mySQL_8_actors, which names start with 'An' - LIKE](8.png)
+![mySQL_8_actors, which names start with 'An' - LIKE](./screenshots/8.png)
 
 ---
 
@@ -247,7 +247,7 @@ SELECT * FROM 'actors' WHERE name LIKE 'An%';
 
 SELECT * FROM 'customers' WHERE email IS NULL; 
 
-![mySQL_9_data of the customer, which has no email address](.png)
+![mySQL_9_data of the customer, which has no email address](./screenshots/9.png)
 
 ---
 
@@ -255,7 +255,7 @@ SELECT * FROM 'customers' WHERE email IS NULL;
 
 SELECT * FROM 'movies' WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 
-![mySQL_10_](10.png)
+![mySQL_10_](./screenshots/10.png)
 
 # <span style="color:yellow">🚀 Task 6 🚀</span>
 
@@ -267,61 +267,61 @@ C.d. TASK 5:Subtask 3 ;)
 
 UPDATE customers SET surname='Miler' WHERE customer_id=3;
 
-![mySQL_11_](11.png)
+![mySQL_11_](./screenshots/11.png)
 
 *12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.*
 
 SELECT customers.customer_id, customers.name, customers.surname, customers.email FROM customers INNER JOIN sale ON customers.customer_id = sale.customer_id WHERE sale.movie_id = 4;
 
-![mySQL_12_](12.png)
+![mySQL_12_](./screenshots/12.png)
 
 *13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com.*
 
 UPDATE customers SET email='pati@mail.com' WHERE customer_id = 4;
 
-![mySQL_13_](13.png)
+![mySQL_13_](./screenshots/13.png)
 
 *14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).*
 
 SELECT customers.name, customers.surname, movies.title FROM ((customers INNER JOIN sale ON customers.customer_id = sale.customer_id) INNER JOIN movies ON sale.movie_id = movies.movie_id);
 
-![mySQL_14_](14.png)
+![mySQL_14_](./screenshots/14.png)
 
 *15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag.*
 
 ALTER TABLE customers ADD COLUMN pseudonym VARCHAR(3) DEFAULT CONCAT (LEFT(name, 2), RIGHT(surname, 1));
 
-![mySQL_15_](15.png)
+![mySQL_15_](./screenshots/15.png)
 
 *16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.*
 
 SELECT DISTINCT sale.movie_id, movies.title FROM sale JOIN movies ON sale.movie_id=movies.movie.id;
 
-![mySQL_16_](16.png)
+![mySQL_16_](./screenshots/16.png)
 
 *17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION).*
 
 SELECT name FROM customers UNION SELECT name FROM actors ORDER BY name ASC;
 
-![mySQL_17_](17.png)
+![mySQL_17_](./screenshots/17.png)
 
 *18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).*
 
 UPDATE movies SET price=price+2.5 WHERE year_of_production > 2000;
 
-![mySQL_18_](18.png)
+![mySQL_18_](./screenshots/18.png)
 
 *19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.*
 
 SELECT actors.name , actors.surname , movies.title FROM actors JOIN cast ON actors.actor_id=cast.actor_id JOIN movies ON cast.movie_id=movies.movie_id;
 
-![mySQL_19_](19.png)
+![mySQL_19_](./screenshots/19.png)
 
 *20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.*
 
 INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES ( 7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com');
 
-![mySQL_20_](20.png)
+![mySQL_20_](./screenshots/20.png)
 
 ## <span style="color:darkorange">Subtask 2</span>
 
